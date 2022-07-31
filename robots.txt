@@ -1,0 +1,10 @@
+Sitemap: http://nuclearoperator.x10host.com/sitemap.xml
+
+User-agent: *
+Allow: /html/
+Disallow: /audio/
+Disallow: /cgi-bin/
+Disallow: /css/
+Disallow: /img/
+Disallow: /js/
+Disallow: /html/

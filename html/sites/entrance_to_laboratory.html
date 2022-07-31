@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>NuclearGame – A funny way to know about nuclear technology</title>
+		<meta http-equiv="content-Type" content="text/html; charset=UTF-8">
+		<meta name="description" content="A funny way to know about nuclear technology">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Carles Mesado">
+		<link rel="icon" href="/img/logos/atom_32x32.png">
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+		<script type="text/javascript" src="/js/main.js"></script>
+		<script type="text/javascript" src="/js/story.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-W1Z4S6NNPV"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-W1Z4S6NNPV');
+        </script>
+	</head>
+
+	<body class="main-bg" onload="loadSite(undefined, 21, 47);">
+
+        <div class="strech-bg blue-bg on-top hidden">
+            <img class="full-img" id="atom" src="/img/logos/atom_814x999.png" alt="atom">
+            <div id="explanation" class="on-top">
+                <p class="text-large text-center">Please, <strong>rotate</strong> your device.</p>
+            </div>
+            <img id="logo-rotate" class="" src="/img/mobile_rotation.png" alt="mobile rotation icon">
+        </div>
+
+		<div class="big-container">
+		    
+		    <div class="small-container">
+    			<img id='site' class="full-img" src="/img/sites/entrance_to_laboratory.jpg" alt="entrance to chemical lab">
+                <div id="messages" class="text-medium"></div>
+                <div id="location" class="text-large"></div>
+                <a id="arrow" class="absolute" href="/html/sites/entrance_to_main_building.html" onclick="updateSite('entrance_to_main_building');" style="top: 50%; left: 20%;"><p id="arrowLeft" class="animate-blink"></p></a>
+                <a id="star-use" class="absolute" href="#top" style="top: 46.6%; left: 64.4%; width: 5%; height: 5%;" onclick="interactThing('reader');"><p id="star" class="animate-shine-spin"></p></a>
+				<a class="absolute" href="#top" style="top: 74%; left: 28%; width: 2%; height: 2%;" onclick="interactThing('lambda');"></a>
+			</div>
+    		
+		</div>
+
+		<div id="boxes">
+		    <a id="link0"><img id="box0" src="/img/objects/empty.jpg" onclick=""></a>
+			<a id="link1"><img id="box1" src="/img/objects/empty.jpg" onclick=""></a>
+			<a id="link2"><img id="box2" src="/img/objects/empty.jpg" onclick=""></a>
+			<a id="link3"><img id="box3" src="/img/objects/empty.jpg" onclick=""></a>
+			<a id="link4"><img id="box4" src="/img/objects/empty.jpg" onclick=""></a>
+			<a id="link5"><img id="box5" src="/img/objects/empty.jpg" onclick=""></a>
+		</div>
+
+        <div class="hard-right-bottom">
+            <a href="/html/sites/map.html">
+				<input type="button" class="red-button" value="Map" onClick="" />
+			</a>
+        </div>
+
+	</body>
+</html>

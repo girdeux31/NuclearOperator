@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>NuclearGame – A funny way to know about nuclear technology</title>
+		<meta http-equiv="content-Type" content="text/html; charset=UTF-8">
+		<meta name="description" content="A funny way to know about nuclear technology">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Carles Mesado">
+		<link rel="icon" href="/img/objects/boron.jpg">
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+		<script type="text/javascript" src="/js/main.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-W1Z4S6NNPV"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-W1Z4S6NNPV');
+        </script>
+	</head>
+
+	<body class="main-bg" onload="openObject()">
+
+		<img id="big-object" src="/img/objects/moderator.jpg" alt="moderator">
+		
+		<div class="description text-small-medium">
+		    <p>In nuclear engineering, a neutron moderator is a medium that reduces the speed of fast neutrons, ideally without capturing any, leaving them as thermal neutrons with only minimal (thermal) kinetic energy. These thermal neutrons are immensely more susceptible than fast neutrons to propagate a nuclear chain reaction of uranium-235 or other fissile isotope by colliding with their atomic nucleus. Water is used as moderator in light water reactors.</p>
+		    <a href="https://en.wikipedia.org/wiki/Neutron_moderator" target="_blank"><p>Get more information</p></a>
+		</div>
+		
+        <div class="text-center">
+            <input type="button" class="red-button" value="Return" onClick="buttonReturn();" />
+            <input type="button" class="red-button" value="Use" onClick="buttonUse('moderator')" />
+            <input type="button" class="red-button" value="Discard" onClick="buttonDiscard('moderator')" />
+        </div>
+
+	</body>
+</html>
